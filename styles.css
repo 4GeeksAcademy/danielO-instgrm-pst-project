@@ -2,8 +2,8 @@ body {
     background-color: black;
 }
 .ig-post {
-    height: 600px;
-    width: 400px;
+    height: 510px;
+    width: 404px;
     background-color: white;
     margin: auto;
     margin-top: 100px;
@@ -27,13 +27,36 @@ body {
 .post-icons {
     border: dashed green 2px;
     width: 400px;
-    height: 70px;
+    height: 40px;
 
 }
-.post-text {
+.post-body {
     border: dashed cyan 2px;
     width: 400px;
     height: 140px;
 
 }
+
+.right {
+    float: right;
+    position: relative;
+    right: 12px;
+    bottom: 8px;
+    
+}
+
+.left{
+    position: relative;
+    left: 9px;
+    top: 10px;
+}
+
+
+.icon right{
+    position: relative;
+    bottom: 8px;
+}
+
+
+
 
