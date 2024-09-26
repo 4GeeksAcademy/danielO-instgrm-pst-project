@@ -2,20 +2,28 @@ body {
     background-color: black;
 }
 .ig-post {
-    height: 510px;
+    height: 520px;
     width: 404px;
     background-color: white;
     margin: auto;
     margin-top: 100px;
 }
 .post-header {
-    border: dashed red 2px;
-    width: 400px;
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    /* width: 400px; */
+    /* height: 60px; */
+}
+
+.header-text{
+    line-height: 1.4;
+    margin-left: 10px;
+
+
 }
 .post-image {
-    border: dashed blue 2px;
-    width: 400px;
     height: 250px;
 }
 
@@ -25,36 +33,43 @@ body {
 }
 
 .post-icons {
-    border: dashed green 2px;
     width: 400px;
     height: 40px;
-
 }
-.post-body {
-    border: dashed cyan 2px;
-    width: 400px;
-    height: 140px;
 
+.post-body {
+    height: 140px;
+    padding: 10px;
 }
 
 .right {
     float: right;
-    position: relative;
+    /* position: relative; */
     right: 12px;
     bottom: 8px;
     
 }
 
 .left{
-    position: relative;
-    left: 9px;
-    top: 10px;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+    /* left: 9px;
+    top: 10px; */
 }
 
 
-.icon right{
+.right-icon{
+    position: relative; 
+    bottom: 5px;
+    left: 370px;
+}
+
+.icons-left{
     position: relative;
-    bottom: 8px;
+    left: 10px;
+    top: 13px;
+
 }
 
 
